@@ -1,0 +1,16 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Kein
+
+** Benutzeraktionen
+     Ändern
+       [dbo].[load_link_M1_Gehaeuse__Leuchte] (Prozedur)
+       [dbo].[load_link_M1_Leuchte__Treiber] (Prozedur)
+
+** Unterstützende Aktionen
