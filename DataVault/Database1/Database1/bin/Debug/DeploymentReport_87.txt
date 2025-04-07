@@ -1,0 +1,20 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Kein
+
+** Benutzeraktionen
+     Ändern
+       [hub].[Spot_Leuchte] (Tabelle)
+
+** Unterstützende Aktionen
+     Aktualisieren
+       [fakt].[Spot] (Sicht)
+       [dbo].[load_hub_Spot_Leuchte] (Prozedur)
+       [dbo].[load_link_Spot_Gehaeuse__Leuchte] (Prozedur)
+       [dbo].[load_link_Spot_Leuchte__Treiber] (Prozedur)
