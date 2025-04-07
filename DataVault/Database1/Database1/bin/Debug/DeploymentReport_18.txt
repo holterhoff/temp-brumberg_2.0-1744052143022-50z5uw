@@ -1,0 +1,19 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Kein
+
+** Benutzeraktionen
+     Erstellen
+       [hub].[Spot_Leuchte] (Tabelle)
+       [hub].[Spot_Treiber] (Tabelle)
+       [dbo].[load_hub_Spot_Leuchte] (Prozedur)
+       [dbo].[sat_hub_Biro40_Optik_Laengen] (Prozedur)
+       [dbo].[sat_hub_Biro40_Profil_Laengen] (Prozedur)
+
+** Unterstützende Aktionen
