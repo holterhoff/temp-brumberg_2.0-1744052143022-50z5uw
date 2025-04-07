@@ -1,0 +1,29 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Der Typ von Spalte "Nettogewicht" in Tabelle "[sat].[Spot_Treiber_Stammdaten]" lautet aktuell " VARCHAR (50) NULL", wird
+         aber in " DECIMAL (5, 2) NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung
+         nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " DECIMAL (5, 2) NULL" kompatibel sind.
+       Der Typ von Spalte "Preis" in Tabelle "[sat].[Spot_Treiber_Stammdaten]" lautet aktuell " VARCHAR (50) NOT NULL", wird
+         aber in " DECIMAL (5, 2) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die
+         Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " DECIMAL (5, 2) NOT NULL"
+         kompatibel sind.
+
+** Benutzeraktionen
+     Ändern
+       [sat].[Spot_Treiber_Stammdaten] (Tabelle)
+       [dbo].[load_sat_Spot_Treiber_Stammdaten] (Prozedur)
+       [dbo].[load_hub_Spot_Treiber] (Prozedur)
+
+** Unterstützende Aktionen
+     Aktualisieren
+       [fakt].[Spot] (Sicht)
+
+Der Typ von Spalte "Nettogewicht" in Tabelle "[sat].[Spot_Treiber_Stammdaten]" lautet aktuell " VARCHAR (50) NULL", wird aber in " DECIMAL (5, 2) NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " DECIMAL (5, 2) NULL" kompatibel sind.
+Der Typ von Spalte "Preis" in Tabelle "[sat].[Spot_Treiber_Stammdaten]" lautet aktuell " VARCHAR (50) NOT NULL", wird aber in " DECIMAL (5, 2) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " DECIMAL (5, 2) NOT NULL" kompatibel sind.
+
