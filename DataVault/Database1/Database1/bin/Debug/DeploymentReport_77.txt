@@ -1,0 +1,74 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       [sat].[Spot_Gehaeuse_Stammdaten]
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Der Typ von Spalte "Artikelnummer" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NVARCHAR (50) NOT
+         NULL", wird aber in " DECIMAL (18, 2) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist
+         die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " DECIMAL (18, 2) NOT NULL"
+         kompatibel sind.
+       Der Typ von Spalte "Ausführung" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NVARCHAR (50) NOT NULL",
+         wird aber in " VARCHAR (50) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die
+         Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (50) NOT NULL"
+         kompatibel sind.
+       Der Typ von Spalte "Image" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NVARCHAR (50) NOT NULL", wird
+         aber in " VARCHAR (50) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die
+         Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (50) NOT NULL"
+         kompatibel sind.
+       Der Typ von Spalte "Konfigurator" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NVARCHAR (50) NOT
+         NULL", wird aber in " VARCHAR (50) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die
+         Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (50) NOT NULL"
+         kompatibel sind.
+       Der Typ von Spalte "Leuchtmittel" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NVARCHAR (MAX) NOT
+         NULL", wird aber in " VARCHAR (MAX) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die
+         Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (MAX) NOT NULL"
+         kompatibel sind.
+       Der Typ von Spalte "Nettogewicht" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NVARCHAR (50) NOT
+         NULL", wird aber in " VARCHAR (50) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die
+         Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (50) NOT NULL"
+         kompatibel sind.
+       Der Typ von Spalte "Offline" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NCHAR (10) NOT NULL", wird
+         aber in " VARCHAR (10) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die
+         Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (10) NOT NULL"
+         kompatibel sind.
+       Der Typ von Spalte "Produktbeschreibung" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NVARCHAR (MAX)
+         NOT NULL", wird aber in " VARCHAR (MAX) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist
+         die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (MAX) NOT NULL"
+         kompatibel sind.
+       Der Typ von Spalte "Schutzart" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NVARCHAR (50) NOT NULL",
+         wird aber in " VARCHAR (50) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die
+         Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (50) NOT NULL"
+         kompatibel sind.
+       Der Typ von Spalte "SEO_Url" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NVARCHAR (MAX) NOT NULL",
+         wird aber in " VARCHAR (MAX) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die
+         Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (MAX) NOT NULL"
+         kompatibel sind.
+       Der Typ von Spalte "Serienname" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NVARCHAR (50) NOT NULL",
+         wird aber in " VARCHAR (50) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die
+         Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (50) NOT NULL"
+         kompatibel sind.
+
+** Benutzeraktionen
+     Tabellenneuerstellung
+       [sat].[Spot_Gehaeuse_Stammdaten] (Tabelle)
+
+** Unterstützende Aktionen
+     Aktualisieren
+       [fakt].[Spot] (Sicht)
+       [dbo].[load_sat_Spot_Gehaeuse_Stammdaten] (Prozedur)
+
+Der Typ von Spalte "Artikelnummer" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NVARCHAR (50) NOT NULL", wird aber in " DECIMAL (18, 2) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " DECIMAL (18, 2) NOT NULL" kompatibel sind.
+Der Typ von Spalte "Ausführung" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NVARCHAR (50) NOT NULL", wird aber in " VARCHAR (50) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (50) NOT NULL" kompatibel sind.
+Der Typ von Spalte "Image" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NVARCHAR (50) NOT NULL", wird aber in " VARCHAR (50) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (50) NOT NULL" kompatibel sind.
+Der Typ von Spalte "Konfigurator" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NVARCHAR (50) NOT NULL", wird aber in " VARCHAR (50) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (50) NOT NULL" kompatibel sind.
+Der Typ von Spalte "Leuchtmittel" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NVARCHAR (MAX) NOT NULL", wird aber in " VARCHAR (MAX) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (MAX) NOT NULL" kompatibel sind.
+Der Typ von Spalte "Nettogewicht" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NVARCHAR (50) NOT NULL", wird aber in " VARCHAR (50) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (50) NOT NULL" kompatibel sind.
+Der Typ von Spalte "Offline" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NCHAR (10) NOT NULL", wird aber in " VARCHAR (10) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (10) NOT NULL" kompatibel sind.
+Der Typ von Spalte "Produktbeschreibung" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NVARCHAR (MAX) NOT NULL", wird aber in " VARCHAR (MAX) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (MAX) NOT NULL" kompatibel sind.
+Der Typ von Spalte "Schutzart" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NVARCHAR (50) NOT NULL", wird aber in " VARCHAR (50) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (50) NOT NULL" kompatibel sind.
+Der Typ von Spalte "SEO_Url" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NVARCHAR (MAX) NOT NULL", wird aber in " VARCHAR (MAX) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (MAX) NOT NULL" kompatibel sind.
+Der Typ von Spalte "Serienname" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NVARCHAR (50) NOT NULL", wird aber in " VARCHAR (50) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (50) NOT NULL" kompatibel sind.
+
