@@ -1,0 +1,30 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       [sat].[Spot_Gehaeuse_Stammdaten]
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Ausführung]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+       Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Leuchtmittel]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+
+** Benutzeraktionen
+     Tabellenneuerstellung
+       [sat].[Spot_Gehaeuse_Stammdaten] (Tabelle)
+     Ändern
+       [dbo].[load_sat_Spot_Gehaeuse_Stammdaten] (Prozedur)
+     Erstellen
+       [dbo].[load_hub_LED] (Prozedur)
+       [dbo].[load_hub_Treiber] (Prozedur)
+       [dbo].[load_link_LED__Treiber] (Prozedur)
+       [dbo].[load_sat_LED_Stammdaten] (Prozedur)
+       [dbo].[load_sat_Treiber_Stammdaten] (Prozedur)
+
+** Unterstützende Aktionen
+     Aktualisieren
+       [fakt].[Spot] (Sicht)
+
+Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Ausführung]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Leuchtmittel]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+
