@@ -1,0 +1,33 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Kein
+
+** Benutzeraktionen
+     Erstellen
+       [hub].[Leuchten] (Tabelle)
+       [hub].[Steuerung] (Tabelle)
+       [hub].[Treiber] (Tabelle)
+       [link].[Leuchten__Steuerung] (Tabelle)
+       [link].[Steuerung__Treiber] (Tabelle)
+       [sat].[LED_Flex_Rolle_MA] (Tabelle)
+       [sat].[LED_Flex_Schnitt_MA] (Tabelle)
+       [sat].[Steuerung_MA] (Tabelle)
+       [sat].[Treiber_MA] (Tabelle)
+       [dbo].[load_hub_Leuchten] (Prozedur)
+       [dbo].[load_hub_Steuerung] (Prozedur)
+       [dbo].[load_hub_Treiber] (Prozedur)
+       [dbo].[load_link_Leuchten__Steuerung] (Prozedur)
+       [dbo].[load_link_Steuerung__Treiber] (Prozedur)
+       [dbo].[load_sat_LED_Flex_Rolle_MA] (Prozedur)
+       [dbo].[load_sat_LED_Flex_Schnitt_MA] (Prozedur)
+       [dbo].[load_sat_Steuerung_MA] (Prozedur)
+       [dbo].[load_sat_Treiber_MA] (Prozedur)
+       [dbo].[load_all] (Prozedur)
+
+** Unterstützende Aktionen
