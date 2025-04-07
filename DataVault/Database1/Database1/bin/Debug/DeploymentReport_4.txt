@@ -1,0 +1,32 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Die Spalte "[hub].[LED].[Einheit_Watt_pro_Rolle]" in der Tabelle "[hub].[LED]" muss hinzugefügt werden, besitzt jedoch
+         keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript
+         nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass
+         NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+
+** Benutzeraktionen
+     Ändern
+       [hub].[LED] (Tabelle)
+       [dbo].[load_all] (Prozedur)
+     Erstellen
+       [dbo].[load_hub_LED] (Prozedur)
+       [dbo].[load_hub_Leuchten] (Prozedur)
+       [dbo].[load_hub_Steuerung] (Prozedur)
+       [dbo].[load_hub_Treiber] (Prozedur)
+       [dbo].[load_link_Leuchten__LED] (Prozedur)
+       [dbo].[load_link_Leuchten__Steuerung] (Prozedur)
+       [dbo].[load_link_Steuerung__Treiber] (Prozedur)
+       [dbo].[load_sat_Steuerung_MA] (Prozedur)
+       [dbo].[load_sat_Treiber_MA] (Prozedur)
+
+** Unterstützende Aktionen
+
+Die Spalte "[hub].[LED].[Einheit_Watt_pro_Rolle]" in der Tabelle "[hub].[LED]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+
