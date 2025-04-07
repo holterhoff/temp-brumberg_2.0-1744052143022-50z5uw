@@ -1,0 +1,28 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       [sat].[M1_Gehaeuse_Stammdaten]
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Die Spalte "[sat].[M1_Gehaeuse_Stammdaten].[Moegliche_Leuchtmittel]" in der Tabelle "[sat].[M1_Gehaeuse_Stammdaten]"
+         muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten
+         enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert
+         hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten
+         als Bereitstellungsoption aktivieren.
+
+** Benutzeraktionen
+     Tabellenneuerstellung
+       [sat].[M1_Gehaeuse_Stammdaten] (Tabelle)
+     Erstellen
+       [dbo].[load_sat_M1_Gehaeuse_Stammdaten] (Prozedur)
+       [dbo].[load_sat_M1_Leuchte_Stammdaten] (Prozedur)
+       [dbo].[load_sat_M1_Treiber_Stammdaten] (Prozedur)
+
+** Unterstützende Aktionen
+     Aktualisieren
+       [fakt].[M1] (Sicht)
+
+Die Spalte "[sat].[M1_Gehaeuse_Stammdaten].[Moegliche_Leuchtmittel]" in der Tabelle "[sat].[M1_Gehaeuse_Stammdaten]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+
