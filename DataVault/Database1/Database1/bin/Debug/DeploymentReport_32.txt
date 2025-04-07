@@ -1,0 +1,27 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       [hub].[Spot_Leuchte]
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Die Spalte "[hub].[Spot_Leuchte].[Versorgung]" in der Tabelle "[hub].[Spot_Leuchte]" muss hinzugefügt werden, besitzt
+         jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das
+         ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so
+         kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als
+         Bereitstellungsoption aktivieren.
+
+** Benutzeraktionen
+     Tabellenneuerstellung
+       [hub].[Spot_Leuchte] (Tabelle)
+     Ändern
+       [dbo].[load_hub_Spot_Leuchte] (Prozedur)
+       [dbo].[load_link_Spot_Leuchte__Treiber] (Prozedur)
+
+** Unterstützende Aktionen
+     Aktualisieren
+       [dbo].[load_link_Spot_Gehaeuse__Leuchte] (Prozedur)
+
+Die Spalte "[hub].[Spot_Leuchte].[Versorgung]" in der Tabelle "[hub].[Spot_Leuchte]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+
