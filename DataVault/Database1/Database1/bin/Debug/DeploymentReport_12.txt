@@ -1,0 +1,16 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Kein
+
+** Benutzeraktionen
+     Erstellen
+       [sat].[Biro40_Leuchte_Artikel] (Tabelle)
+       [dbo].[sat_hub_Biro40_Leuchte_Artikel] (Prozedur)
+
+** Unterstützende Aktionen
