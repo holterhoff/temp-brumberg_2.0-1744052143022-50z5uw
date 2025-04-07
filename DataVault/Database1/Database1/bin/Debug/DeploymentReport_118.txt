@@ -1,0 +1,21 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Kein
+
+** Benutzeraktionen
+     Ändern
+       [sat].[LED_Stammdaten] (Tabelle)
+       [sat].[Treiber_Stammdaten] (Tabelle)
+
+** Unterstützende Aktionen
+     Aktualisieren
+       [fakt].[M1] (Sicht)
+       [fakt].[Spot] (Sicht)
+       [dbo].[load_sat_LED_Stammdaten] (Prozedur)
+       [dbo].[load_sat_Treiber_Stammdaten] (Prozedur)
