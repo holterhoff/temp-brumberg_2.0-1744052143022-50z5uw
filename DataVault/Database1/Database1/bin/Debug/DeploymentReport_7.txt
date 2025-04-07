@@ -1,0 +1,20 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Kein
+
+** Benutzeraktionen
+     Erstellen
+       [link].[Biro40_Figur__Montage] (Tabelle)
+       [link].[Biro40_Leuchte__Optik] (Tabelle)
+       [link].[Biro40_Montage__Leuchte] (Tabelle)
+       [dbo].[load_link_Biro40_Figur__Montage] (Prozedur)
+       [dbo].[load_link_Biro40_Leuchte__Optik] (Prozedur)
+       [dbo].[load_link_Biro40_Montage__Leuchte] (Prozedur)
+
+** Unterstützende Aktionen
