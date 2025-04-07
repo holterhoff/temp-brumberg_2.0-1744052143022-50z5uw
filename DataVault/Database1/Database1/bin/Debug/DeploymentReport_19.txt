@@ -1,0 +1,24 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       [hub].[Spot_Treiber]
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Die Spalte "[hub].[Spot_Treiber].[Versorgung]" in der Tabelle "[hub].[Spot_Treiber]" muss hinzugefügt werden, besitzt
+         jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das
+         ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so
+         kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als
+         Bereitstellungsoption aktivieren.
+
+** Benutzeraktionen
+     Tabellenneuerstellung
+       [hub].[Spot_Treiber] (Tabelle)
+     Erstellen
+       [dbo].[load_hub_Spot_Treiber] (Prozedur)
+
+** Unterstützende Aktionen
+
+Die Spalte "[hub].[Spot_Treiber].[Versorgung]" in der Tabelle "[hub].[Spot_Treiber]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+
