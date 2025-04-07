@@ -1,0 +1,20 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Kein
+
+** Benutzeraktionen
+     Erstellen
+       [hub].[LED] (Tabelle)
+       [link].[Leuchten__LED] (Tabelle)
+       [dbo].[load_hub_LED] (Prozedur)
+       [dbo].[load_link_Leuchten__LED] (Prozedur)
+     Ändern
+       [dbo].[load_all] (Prozedur)
+
+** Unterstützende Aktionen
