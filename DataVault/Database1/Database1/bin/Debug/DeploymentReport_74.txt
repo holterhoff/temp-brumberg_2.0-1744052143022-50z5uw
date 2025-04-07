@@ -1,0 +1,24 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Der Typ von Spalte "Maße" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NVARCHAR (50) NOT NULL", wird
+         aber in " VARCHAR (50) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die
+         Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (50) NOT NULL"
+         kompatibel sind.
+
+** Benutzeraktionen
+     Ändern
+       [sat].[Spot_Gehaeuse_Stammdaten] (Tabelle)
+
+** Unterstützende Aktionen
+     Aktualisieren
+       [fakt].[Spot] (Sicht)
+       [dbo].[load_sat_Spot_Gehaeuse_Stammdaten] (Prozedur)
+
+Der Typ von Spalte "Maße" in Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" lautet aktuell " NVARCHAR (50) NOT NULL", wird aber in " VARCHAR (50) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (50) NOT NULL" kompatibel sind.
+
