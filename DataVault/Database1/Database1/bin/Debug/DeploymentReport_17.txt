@@ -1,0 +1,18 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Kein
+
+** Benutzeraktionen
+     Erstellen
+       [link].[Biro40_Leuchte__Profil] (Tabelle)
+       [sat].[Biro40_Optik_Laengen] (Tabelle)
+       [sat].[Biro40_Profil_Laengen] (Tabelle)
+       [dbo].[load_link_Biro40_Leuchte__Profil] (Prozedur)
+
+** Unterstützende Aktionen
