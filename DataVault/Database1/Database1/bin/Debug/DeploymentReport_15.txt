@@ -1,0 +1,26 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       [sat].[Biro40_Leuchte_Laengen]
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Die Spalte "[sat].[Biro40_Leuchte_Laengen].[Ecke]" in der Tabelle "[sat].[Biro40_Leuchte_Laengen]" muss hinzugefügt
+         werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält,
+         funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert
+         hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten
+         als Bereitstellungsoption aktivieren.
+
+** Benutzeraktionen
+     Tabellenneuerstellung
+       [sat].[Biro40_Leuchte_Laengen] (Tabelle)
+     Ändern
+       [dbo].[sat_hub_Biro40_Leuchte_Artikel_MA] (Prozedur)
+       [dbo].[sat_hub_Biro40_Leuchte_Laengen] (Prozedur)
+       [dbo].[load_hub_Biro40_Optik] (Prozedur)
+
+** Unterstützende Aktionen
+
+Die Spalte "[sat].[Biro40_Leuchte_Laengen].[Ecke]" in der Tabelle "[sat].[Biro40_Leuchte_Laengen]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+
