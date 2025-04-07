@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0">
+  <Operation Name="Rename Refactor" Key="18e2b90d-8893-47c9-92b4-5417e912e52a" ChangeDateTime="10/07/2022 12:19:40" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[link].[Lichtverteilung_Klasse__Produkt_Typ_Klasse__Leuchten_Laenge_Klasse__Optik_Klasse__Lichtstrom_Klasse].[Lichtstrom_Klasse]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[link].[Lichtverteilung_Klasse__Produkt_Typ_Klasse__Leuchten_Laenge_Klasse__Optik_Klasse__Lichtstrom_Klasse]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Lichtstrom_Klasse_SK" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="24e964a7-d091-4455-bf51-d073821d0dcd" ChangeDateTime="10/27/2022 13:37:02" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[hub].[Leuchte].[Lebensdauer_Klasse_SK]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[hub].[Leuchte]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Leuchte_SK" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6b49556c-11bf-4c32-b6ad-e62f23344f83" ChangeDateTime="10/27/2022 13:37:06" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[hub].[Leuchte].[Lebensdauer]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[hub].[Leuchte]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Leuchte" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3d9f3e06-0c31-4c5f-9182-58c6d07dbfb0" ChangeDateTime="10/27/2022 13:38:24" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[hub].[Schaltungsart_Klasse].[Schaltungsart_Klasse_SK]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[hub].[Schaltungsart_Klasse]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Steuerung_SK" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="805b9f71-c4e4-4830-8150-ead2c5663eae" ChangeDateTime="10/27/2022 13:38:31" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[hub].[Schaltungsart_Klasse].[Schaltungsart]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[hub].[Schaltungsart_Klasse]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Steuerungsvariante" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="39f80036-7bcf-4335-9ab4-d75083319eb4" ChangeDateTime="10/27/2022 13:40:05" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[hub].[Treiber].[S[Treiber_SK]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[hub].[Treiber]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Treiber_SK" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="57b6b24c-55aa-45e5-a19d-b656aaec7c32" ChangeDateTime="10/27/2022 13:40:22" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[hub].[Treiber].[Steuerungsvariante]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[hub].[Treiber]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Hersteller" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ee4f4205-2b5b-4c21-8b27-989246926ba4" ChangeDateTime="10/27/2022 13:41:41" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[sat].[Steuerung].[Figur_SK]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sat].[Steuerung]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Steuerung_SK" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1dd9b894-cf79-48a9-a2cd-4ba0c58c3a95" ChangeDateTime="10/27/2022 13:41:56" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[sat].[Steuerung].[Beschreibung]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sat].[Steuerung]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Typ" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e401513e-503b-424d-bce1-399d4b7c8cfe" ChangeDateTime="10/27/2022 18:27:31" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[sat].[Steuerung].[Max_Leistung]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sat].[Steuerung]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Artikel" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d95a0999-3c60-44f1-9c56-3658cb854473" ChangeDateTime="10/27/2022 18:41:25" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[sat].[Treiber_MA].[Artikel]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sat].[Treiber_MA]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Typ" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="87e5beb5-5b80-4c90-8db1-8e7ef30125b0" ChangeDateTime="10/27/2022 18:41:31" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[sat].[Treiber_MA].[T[Treiber_SK]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sat].[Treiber_MA]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Treiber_SK" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="464c54e8-9f61-4cad-9784-cd6959c2bc72" ChangeDateTime="10/27/2022 18:41:36" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[sat].[Treiber_MA].[Typ]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sat].[Treiber_MA]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Hersteller" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c4fca279-7c41-4c8d-a649-62806ce04068" ChangeDateTime="10/27/2022 18:55:08" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[sat].[Treiber_MA].[Leiserung]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sat].[Treiber_MA]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Leistung" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0d0794c8-6521-425d-a2a4-0b2234f861bd" ChangeDateTime="10/27/2022 19:17:27" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[link].[Leuchten__Treiber].[Leuchten_SK]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[link].[Leuchten__Treiber]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Leuchte_SK" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="55c05811-a1d1-4b30-a4fc-76cea049d193" ChangeDateTime="10/27/2022 19:18:01" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[link].[Leuchten__Steuerung].[Leuchten_SK]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[link].[Leuchten__Steuerung]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Leuchte_SK" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d9867dce-14b2-42c3-833f-bac93e9b2d66" ChangeDateTime="10/27/2022 20:11:23" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[link].[Leuchten__Treiber].[Leuchte_SK]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[link].[Leuchten__Treiber]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Leuchten_SK" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="39283126-85fc-4d3c-9401-b396eb7620e8" ChangeDateTime="10/27/2022 20:11:27" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[link].[Leuchten__Steuerung].[Leuchte_SK]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[link].[Leuchten__Steuerung]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Leuchten_SK" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6a252fe3-e2d0-43db-80ae-03675c166890" ChangeDateTime="10/27/2022 20:11:35" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[link].[Leuchten__Steuerung].[Leuchten_SK]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[link].[Leuchten__Steuerung]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Leuchte_SK" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fd81f1a6-e41a-4a5b-b301-eb96e3b01255" ChangeDateTime="10/27/2022 20:11:38" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[link].[Leuchten__Treiber].[Leuchten_SK]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[link].[Leuchten__Treiber]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Leuchte_SK" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="babad99a-017d-40f5-a53b-b3201f8ee4db" ChangeDateTime="10/28/2022 11:10:21" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[hub].[Steuerung].[Leistung]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[hub].[Steuerung]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Maximal_Leistung" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="367e2c92-6d62-4386-9c8e-0dd66645d037" ChangeDateTime="10/28/2022 11:35:23" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[sat].[Steuerung_MA].[Artikel]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sat].[Steuerung_MA]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Artikelnummer" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="694561d9-b52d-45d3-8b40-74c51265195b" ChangeDateTime="11/02/2022 18:36:01" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[hub].[LED].[Leuchte]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[hub].[LED]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Lichtfarbe" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="50ffa6c5-70a5-42c0-b2a2-59252e3df9f7" ChangeDateTime="11/02/2022 18:37:09" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[hub].[LED].[Leuchtentyp]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[hub].[LED]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Leistung_pro_Meter" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6240f374-123d-4416-9eb0-77a0da01e716" ChangeDateTime="11/02/2022 18:37:18" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[hub].[LED].[Schutzart]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[hub].[LED]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Einheit_Leistung_pro_Meter" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="369f279f-19bd-4ea2-aa11-dc44b9dbdb75" ChangeDateTime="11/02/2022 18:37:25" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[hub].[LED].[Kanal]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[hub].[LED]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Lumen_pro_Meter" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="36a06fc7-518b-41bd-bb61-1710ac4f7afd" ChangeDateTime="02/28/2023 15:22:49" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[hub].[Spot_Leuchte].[Effizienzklasse]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[hub].[Spot_Leuchte]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="image" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6655a62c-7315-44eb-ba70-ff32f2e91436" ChangeDateTime="02/28/2023 15:23:11" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[hub].[Spot_Leuchte].[image]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[hub].[Spot_Leuchte]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Image" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f900d9c8-c05e-4c71-92f0-b54b44fca364" ChangeDateTime="02/28/2023 15:24:10" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[sat].[Spot_Leuchte_Stammdaten].[Website]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sat].[Spot_Leuchte_Stammdaten]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SEO_Url" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4081b2fa-bd86-456d-84a9-1b6143178ba7" ChangeDateTime="02/28/2023 16:32:49" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[sat].[Spot_Treiber_Stammdaten].[Website]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sat].[Spot_Treiber_Stammdaten]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SEO_Url" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c131bf78-5e74-4fda-a864-86c016de97b0" ChangeDateTime="02/28/2023 16:38:19" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[sat].[Spot_Treiber_Stammdaten].[Offlien]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[sat].[Spot_Treiber_Stammdaten]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Offline" />
+  </Operation>
+</Operations>
