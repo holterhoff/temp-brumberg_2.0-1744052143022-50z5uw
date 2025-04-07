@@ -1,0 +1,17 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Kein
+
+** Benutzeraktionen
+     Erstellen
+       [hub].[Spot_Gehaeuse] (Tabelle)
+       [sat].[Spot_Gehaeuse_Stammdaten] (Tabelle)
+       [dbo].[load_hub_Spot_Gehaeuse] (Prozedur)
+
+** Unterstützende Aktionen
