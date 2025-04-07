@@ -1,0 +1,37 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Die Spalte "[sat].[Spot_Treiber_Stammdaten].[Artikelnummer]" in der Tabelle "[sat].[Spot_Treiber_Stammdaten]" muss
+         hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält,
+         funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert
+         hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten
+         als Bereitstellungsoption aktivieren.
+       Die Spalte "[sat].[Spot_Treiber_Stammdaten].[Preis]" in der Tabelle "[sat].[Spot_Treiber_Stammdaten]" muss hinzugefügt
+         werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält,
+         funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert
+         hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten
+         als Bereitstellungsoption aktivieren.
+       Der Typ von Spalte "Image" in Tabelle "[sat].[Spot_Treiber_Stammdaten]" lautet aktuell " NVARCHAR (50) NOT NULL", wird
+         aber in " VARCHAR (50) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die
+         Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (50) NOT NULL"
+         kompatibel sind.
+
+** Benutzeraktionen
+     Umbenennen
+       [sat].[Spot_Treiber_Stammdaten].[SEO_Url] (Spalte)
+     Ändern
+       [sat].[Spot_Treiber_Stammdaten] (Tabelle)
+       [fakt].[Spot] (Sicht)
+       [dbo].[load_sat_Spot_Treiber_Stammdaten] (Prozedur)
+
+** Unterstützende Aktionen
+
+Die Spalte "[sat].[Spot_Treiber_Stammdaten].[Artikelnummer]" in der Tabelle "[sat].[Spot_Treiber_Stammdaten]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Die Spalte "[sat].[Spot_Treiber_Stammdaten].[Preis]" in der Tabelle "[sat].[Spot_Treiber_Stammdaten]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Der Typ von Spalte "Image" in Tabelle "[sat].[Spot_Treiber_Stammdaten]" lautet aktuell " NVARCHAR (50) NOT NULL", wird aber in " VARCHAR (50) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " VARCHAR (50) NOT NULL" kompatibel sind.
+
