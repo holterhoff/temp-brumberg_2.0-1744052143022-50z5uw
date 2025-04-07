@@ -1,0 +1,23 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Kein
+
+** Benutzeraktionen
+     Erstellen
+       [link].[M1_Gehaeuse__LED] (Tabelle)
+       [link].[M1_LED__Treiber] (Tabelle)
+       [link].[Spot_Gehaeuse__LED] (Tabelle)
+       [link].[Spot_LED__Treiber] (Tabelle)
+       [dbo].[load_link_M1_LED__Treiber] (Prozedur)
+       [dbo].[load_link_Spot_Gehaeuse__LED] (Prozedur)
+     Ändern
+       [fakt].[M1] (Sicht)
+       [fakt].[Spot] (Sicht)
+
+** Unterstützende Aktionen
