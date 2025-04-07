@@ -1,0 +1,20 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Kein
+
+** Benutzeraktionen
+     Erstellen
+       [sat].[Spot_Leuchte_Stammdaten] (Tabelle)
+       [sat].[Spot_Treiber_Stammdaten] (Tabelle)
+       [dbo].[sat_hub_Spot_Leuchte_Stammdaten] (Prozedur)
+       [dbo].[sat_hub_Spot_Treiber_Stammdaten] (Prozedur)
+     Ändern
+       [dbo].[load_hub_Spot_Leuchte] (Prozedur)
+
+** Unterstützende Aktionen
