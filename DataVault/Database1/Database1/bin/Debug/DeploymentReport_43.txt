@@ -1,0 +1,22 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Die Spalte "[hub].[M1_Gehaeuse].[Montageart_1]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+
+** Benutzeraktionen
+     Ändern
+       [hub].[M1_Gehaeuse] (Tabelle)
+     Erstellen
+       [dbo].[load_hub_M1_Gehaeuse] (Prozedur)
+       [dbo].[load_sat_M1_Gehaeuse_Artikel] (Prozedur)
+       [dbo].[load_sat_M1_Gehaeuse_Stammdaten] (Prozedur)
+
+** Unterstützende Aktionen
+
+Die Spalte "[hub].[M1_Gehaeuse].[Montageart_1]" wird gelöscht, es könnte zu einem Datenverlust kommen.
+
