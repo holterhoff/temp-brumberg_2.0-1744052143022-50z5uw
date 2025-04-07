@@ -1,0 +1,55 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Die Spalte "[sat].[Spot_Leuchte_Stammdaten].[Produktbeschreibung]" in der Tabelle "[sat].[Spot_Leuchte_Stammdaten]" muss
+         hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält,
+         funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert
+         hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten
+         als Bereitstellungsoption aktivieren.
+       Die Spalte "[sat].[Spot_Leuchte_Stammdaten].[Website]" in der Tabelle "[sat].[Spot_Leuchte_Stammdaten]" muss hinzugefügt
+         werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält,
+         funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert
+         hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten
+         als Bereitstellungsoption aktivieren.
+       Die Spalte "[sat].[Spot_Treiber_Stammdaten].[Produktbeschreibung]" in der Tabelle "[sat].[Spot_Treiber_Stammdaten]" muss
+         hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält,
+         funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert
+         hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten
+         als Bereitstellungsoption aktivieren.
+       Die Spalte "[sat].[Spot_Treiber_Stammdaten].[Website]" in der Tabelle "[sat].[Spot_Treiber_Stammdaten]" muss hinzugefügt
+         werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält,
+         funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert
+         hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten
+         als Bereitstellungsoption aktivieren.
+
+** Benutzeraktionen
+     Ändern
+       [sat].[Spot_Leuchte_Stammdaten] (Tabelle)
+       [sat].[Spot_Treiber_Stammdaten] (Tabelle)
+       [fakt].[Spot] (Sicht)
+       [dbo].[load_sat_Spot_Leuchte_Stammdaten] (Prozedur)
+       [dbo].[load_sat_Spot_Treiber_Stammdaten] (Prozedur)
+     Erstellen
+       [hub].[M1_Leuchte] (Tabelle)
+       [sat].[M1_Leuchte_Artikel] (Tabelle)
+       [sat].[M1_Leuchte_Stammdaten] (Tabelle)
+       [sat].[M1_Treiber_Artikel] (Tabelle)
+       [sat].[M1_Treiber_Stammdaten] (Tabelle)
+       [dbo].[load_hub_M1_Leuchte] (Prozedur)
+       [dbo].[load_sat_M1_Leuchte_Artikel] (Prozedur)
+       [dbo].[load_sat_M1_Leuchte_Stammdaten] (Prozedur)
+       [dbo].[load_sat_M1_Treiber_Artikel] (Prozedur)
+       [dbo].[load_sat_M1_Treiber_Stammdaten] (Prozedur)
+
+** Unterstützende Aktionen
+
+Die Spalte "[sat].[Spot_Leuchte_Stammdaten].[Produktbeschreibung]" in der Tabelle "[sat].[Spot_Leuchte_Stammdaten]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Die Spalte "[sat].[Spot_Leuchte_Stammdaten].[Website]" in der Tabelle "[sat].[Spot_Leuchte_Stammdaten]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Die Spalte "[sat].[Spot_Treiber_Stammdaten].[Produktbeschreibung]" in der Tabelle "[sat].[Spot_Treiber_Stammdaten]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Die Spalte "[sat].[Spot_Treiber_Stammdaten].[Website]" in der Tabelle "[sat].[Spot_Treiber_Stammdaten]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+
