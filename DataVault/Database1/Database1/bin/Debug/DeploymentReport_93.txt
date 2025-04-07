@@ -1,0 +1,25 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Der Typ von Spalte "Leistung" in Tabelle "[hub].[Spot_Leuchte]" lautet aktuell " VARCHAR (100) NOT NULL", wird aber in "
+         DECIMAL (5, 2) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht
+         erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " DECIMAL (5, 2) NOT NULL" kompatibel sind.
+
+** Benutzeraktionen
+     Ändern
+       [hub].[Spot_Leuchte] (Tabelle)
+       [fakt].[Spot] (Sicht)
+       [dbo].[load_hub_Spot_Leuchte] (Prozedur)
+
+** Unterstützende Aktionen
+     Aktualisieren
+       [dbo].[load_link_Spot_Gehaeuse__Leuchte] (Prozedur)
+       [dbo].[load_link_Spot_Leuchte__Treiber] (Prozedur)
+
+Der Typ von Spalte "Leistung" in Tabelle "[hub].[Spot_Leuchte]" lautet aktuell " VARCHAR (100) NOT NULL", wird aber in " DECIMAL (5, 2) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " DECIMAL (5, 2) NOT NULL" kompatibel sind.
+
