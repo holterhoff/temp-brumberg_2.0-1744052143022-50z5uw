@@ -1,0 +1,22 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       [hub].[Spot_Leuchte]
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Der Typ von Spalte "Leistung" in Tabelle "[hub].[Spot_Leuchte]" lautet aktuell " DECIMAL (18, 5) NOT NULL", wird aber in
+         " DECIMAL (18, 2) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung
+         nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " DECIMAL (18, 2) NOT NULL" kompatibel sind.
+
+** Benutzeraktionen
+     Tabellenneuerstellung
+       [hub].[Spot_Leuchte] (Tabelle)
+
+** Unterstützende Aktionen
+     Aktualisieren
+       [dbo].[load_hub_Spot_Leuchte] (Prozedur)
+
+Der Typ von Spalte "Leistung" in Tabelle "[hub].[Spot_Leuchte]" lautet aktuell " DECIMAL (18, 5) NOT NULL", wird aber in " DECIMAL (18, 2) NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " DECIMAL (18, 2) NOT NULL" kompatibel sind.
+
