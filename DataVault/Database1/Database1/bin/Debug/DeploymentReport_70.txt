@@ -1,0 +1,87 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Anzahl_Leuchtmittel]" in der Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]"
+         muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten
+         enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert
+         hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten
+         als Bereitstellungsoption aktivieren.
+       Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Artikelnummer]" in der Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" muss
+         hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält,
+         funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert
+         hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten
+         als Bereitstellungsoption aktivieren.
+       Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Konfigurator]" in der Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" muss
+         hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält,
+         funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert
+         hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten
+         als Bereitstellungsoption aktivieren.
+       Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Leuchtmittel]" in der Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" muss
+         hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält,
+         funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert
+         hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten
+         als Bereitstellungsoption aktivieren.
+       Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Maße]" in der Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" muss hinzugefügt
+         werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält,
+         funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert
+         hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten
+         als Bereitstellungsoption aktivieren.
+       Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Max_Deckenstaerke]" in der Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" muss
+         hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält,
+         funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert
+         hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten
+         als Bereitstellungsoption aktivieren.
+       Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Nettogewicht]" in der Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" muss
+         hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält,
+         funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert
+         hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten
+         als Bereitstellungsoption aktivieren.
+       Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Offline]" in der Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" muss
+         hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält,
+         funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert
+         hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten
+         als Bereitstellungsoption aktivieren.
+       Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Preis]" in der Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" muss hinzugefügt
+         werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält,
+         funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert
+         hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten
+         als Bereitstellungsoption aktivieren.
+       Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[SEO_Url]" in der Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" muss
+         hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält,
+         funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert
+         hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten
+         als Bereitstellungsoption aktivieren.
+       Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Serienname]" in der Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" muss
+         hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält,
+         funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert
+         hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten
+         als Bereitstellungsoption aktivieren.
+
+** Benutzeraktionen
+     Ändern
+       [sat].[Spot_Gehaeuse_Stammdaten] (Tabelle)
+       [dbo].[load_sat_Spot_Gehaeuse_Stammdaten] (Prozedur)
+       [dbo].[load_hub_Spot_Gehaeuse] (Prozedur)
+
+** Unterstützende Aktionen
+     Aktualisieren
+       [fakt].[Spot] (Sicht)
+
+Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Anzahl_Leuchtmittel]" in der Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Artikelnummer]" in der Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Konfigurator]" in der Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Leuchtmittel]" in der Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Maße]" in der Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Max_Deckenstaerke]" in der Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Nettogewicht]" in der Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Offline]" in der Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Preis]" in der Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[SEO_Url]" in der Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Die Spalte "[sat].[Spot_Gehaeuse_Stammdaten].[Serienname]" in der Tabelle "[sat].[Spot_Gehaeuse_Stammdaten]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Wenn diese Bereitstellung ausgeführt wird, führen Änderungen an [sat].[Spot_Gehaeuse_Stammdaten] möglicherweise zu Laufzeitfehlern in [fakt].[Spot_PIM].
+
