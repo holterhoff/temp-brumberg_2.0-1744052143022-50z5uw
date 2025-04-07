@@ -1,0 +1,19 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Kein
+
+** Benutzeraktionen
+     Ändern
+       [hub].[Biro_Circle] (Tabelle)
+     Erstellen
+       [dbo].[load_hub_Biro_Circle] (Prozedur)
+       [dbo].[load_sat_Biro_Circle_Artikel] (Prozedur)
+       [dbo].[load_sat_Biro_Circle_Stammdaten] (Prozedur)
+
+** Unterstützende Aktionen
