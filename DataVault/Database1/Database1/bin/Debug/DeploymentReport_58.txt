@@ -1,0 +1,20 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Kein
+
+** Benutzeraktionen
+     Erstellen
+       [hub].[Melody_Stehleuchte] (Tabelle)
+       [sat].[Melody_Stehleuchte_Artikel] (Tabelle)
+       [sat].[Melody_Stehleuchte_Stammdaten] (Tabelle)
+       [dbo].[load_hub_Melody_Stehleuchte] (Prozedur)
+     Ändern
+       [fakt].[Spot] (Sicht)
+
+** Unterstützende Aktionen
