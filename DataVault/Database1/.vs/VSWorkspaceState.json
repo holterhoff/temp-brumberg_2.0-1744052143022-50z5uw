@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Database1",
+    "\\Database1\\dbo",
+    "\\Database1\\dbo\\Stored Procedures",
+    "\\Database1\\hub",
+    "\\Database1\\hub\\Tables",
+    "\\Database1\\link",
+    "\\Database1\\link\\Tables",
+    "\\Database1\\sat",
+    "\\Database1\\sat\\Tables"
+  ],
+  "SelectedNode": "\\DataVault.sln",
+  "PreviewInSolutionExplorer": false
+}
