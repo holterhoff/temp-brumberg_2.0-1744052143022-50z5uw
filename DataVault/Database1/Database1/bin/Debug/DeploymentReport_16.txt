@@ -1,0 +1,30 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Kein
+
+** Benutzeraktionen
+     Erstellen
+       [hub].[Biro40_Optik] (Tabelle)
+       [hub].[Biro40_Profil] (Tabelle)
+       [link].[Biro40_Figur__Montage] (Tabelle)
+       [link].[Biro40_Leuchte__Optik] (Tabelle)
+       [link].[Biro40_Montage__Leuchte] (Tabelle)
+       [sat].[Biro40_Leuchte_Artikel_MA] (Tabelle)
+       [sat].[Biro40_Leuchte_Laengen] (Tabelle)
+       [dbo].[load_hub_Biro40_Figur] (Prozedur)
+       [dbo].[load_hub_Biro40_Leuchte] (Prozedur)
+       [dbo].[load_link_Biro40_Figur__Montage] (Prozedur)
+       [dbo].[load_link_Biro40_Leuchte__Optik] (Prozedur)
+       [dbo].[load_link_Biro40_Montage__Leuchte] (Prozedur)
+       [dbo].[sat_hub_Biro40_Leuchte_Artikel_MA] (Prozedur)
+       [dbo].[sat_hub_Biro40_Leuchte_Laengen] (Prozedur)
+     Ändern
+       [dbo].[load_hub_Biro40_Optik] (Prozedur)
+
+** Unterstützende Aktionen
