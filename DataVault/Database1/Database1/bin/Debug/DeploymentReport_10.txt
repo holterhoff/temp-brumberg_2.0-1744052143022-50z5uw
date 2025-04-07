@@ -1,0 +1,43 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       Kein
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Der Typ von Spalte "Abzug" in Tabelle "[sat].[Biro40_Leuchte_Laengen]" lautet aktuell " NVARCHAR (50) NULL", wird aber
+         in " INT NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht
+         erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " INT NOT NULL" kompatibel sind.
+       Der Typ von Spalte "Max" in Tabelle "[sat].[Biro40_Leuchte_Laengen]" lautet aktuell " NVARCHAR (50) NULL", wird aber in
+         " INT NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht
+         erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " INT NOT NULL" kompatibel sind.
+       Der Typ von Spalte "Min" in Tabelle "[sat].[Biro40_Leuchte_Laengen]" lautet aktuell " NVARCHAR (50) NULL", wird aber in
+         " INT NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht
+         erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " INT NOT NULL" kompatibel sind.
+       Der Typ von Spalte "Step" in Tabelle "[sat].[Biro40_Leuchte_Laengen]" lautet aktuell " NVARCHAR (50) NULL", wird aber in
+         " INT NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht
+         erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " INT NOT NULL" kompatibel sind.
+       Der Typ von Spalte "Toleranz" in Tabelle "[sat].[Biro40_Leuchte_Laengen]" lautet aktuell " NVARCHAR (50) NULL", wird
+         aber in " INT NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht
+         erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " INT NOT NULL" kompatibel sind.
+
+** Benutzeraktionen
+     Ändern
+       [sat].[Biro40_Leuchte_Laengen] (Tabelle)
+     Erstellen
+       [dbo].[sat_hub_Biro40_Leuchte_Laengen] (Prozedur)
+
+** Unterstützende Aktionen
+
+Die Spalte "Abzug" der Tabelle "[sat].[Biro40_Leuchte_Laengen]" muss von NULL in NOT NULL geändert werden. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript u. U. nicht. Um dieses Problem zu vermeiden, müssen Sie dieser Spalte für alle Zeilen Werte hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Der Typ von Spalte "Abzug" in Tabelle "[sat].[Biro40_Leuchte_Laengen]" lautet aktuell " NVARCHAR (50) NULL", wird aber in " INT NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " INT NOT NULL" kompatibel sind.
+Die Spalte "Max" der Tabelle "[sat].[Biro40_Leuchte_Laengen]" muss von NULL in NOT NULL geändert werden. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript u. U. nicht. Um dieses Problem zu vermeiden, müssen Sie dieser Spalte für alle Zeilen Werte hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Der Typ von Spalte "Max" in Tabelle "[sat].[Biro40_Leuchte_Laengen]" lautet aktuell " NVARCHAR (50) NULL", wird aber in " INT NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " INT NOT NULL" kompatibel sind.
+Die Spalte "Min" der Tabelle "[sat].[Biro40_Leuchte_Laengen]" muss von NULL in NOT NULL geändert werden. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript u. U. nicht. Um dieses Problem zu vermeiden, müssen Sie dieser Spalte für alle Zeilen Werte hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Der Typ von Spalte "Min" in Tabelle "[sat].[Biro40_Leuchte_Laengen]" lautet aktuell " NVARCHAR (50) NULL", wird aber in " INT NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " INT NOT NULL" kompatibel sind.
+Die Spalte "Step" der Tabelle "[sat].[Biro40_Leuchte_Laengen]" muss von NULL in NOT NULL geändert werden. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript u. U. nicht. Um dieses Problem zu vermeiden, müssen Sie dieser Spalte für alle Zeilen Werte hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Der Typ von Spalte "Step" in Tabelle "[sat].[Biro40_Leuchte_Laengen]" lautet aktuell " NVARCHAR (50) NULL", wird aber in " INT NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " INT NOT NULL" kompatibel sind.
+Die Spalte "Toleranz" der Tabelle "[sat].[Biro40_Leuchte_Laengen]" muss von NULL in NOT NULL geändert werden. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript u. U. nicht. Um dieses Problem zu vermeiden, müssen Sie dieser Spalte für alle Zeilen Werte hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Der Typ von Spalte "Toleranz" in Tabelle "[sat].[Biro40_Leuchte_Laengen]" lautet aktuell " NVARCHAR (50) NULL", wird aber in " INT NOT NULL" geändert. Es kann zu einem Datenverlust kommen, und möglicherweise ist die Bereitstellung nicht erfolgreich, wenn die Spalte Daten enthält, die nicht mit dem Typ " INT NOT NULL" kompatibel sind.
+
