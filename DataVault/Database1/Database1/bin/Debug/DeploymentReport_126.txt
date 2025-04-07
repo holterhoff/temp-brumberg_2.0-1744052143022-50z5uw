@@ -1,0 +1,27 @@
+﻿** Hervorhebungen
+     Tabellen, die neu erstellt werden.
+       [link].[M1_LED__Treiber]
+     Gruppierte Indizes, die gelöscht werden.
+       Kein
+     Gruppierte Indizes, die erstellt werden.
+       Kein
+     Mögliche Datenprobleme
+       Die Spalte "[link].[M1_LED__Treiber].[Gehaeuse_SK]" in der Tabelle "[link].[M1_LED__Treiber]" muss hinzugefügt werden,
+         besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das
+         ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so
+         kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als
+         Bereitstellungsoption aktivieren.
+
+** Benutzeraktionen
+     Tabellenneuerstellung
+       [link].[M1_LED__Treiber] (Tabelle)
+     Ändern
+       [dbo].[load_link_M1_LED__Treiber] (Prozedur)
+
+** Unterstützende Aktionen
+     Aktualisieren
+       [fakt].[M1] (Sicht)
+
+Die Spalte "[link].[M1_LED__Treiber].[Gehaeuse_SK]" in der Tabelle "[link].[M1_LED__Treiber]" muss hinzugefügt werden, besitzt jedoch keinen Standardwert und unterstützt keine NULL-Werte. Wenn die Tabelle Daten enthält, funktioniert das ALTER-Skript nicht. Um dieses Problem zu vermeiden, müssen Sie der Spalte einen Standardwert hinzufügen, sie so kennzeichnen, dass NULL-Werte zulässig sind, oder die Generierung von intelligenten Standardwerten als Bereitstellungsoption aktivieren.
+Wenn diese Bereitstellung ausgeführt wird, führen Änderungen an [link].[M1_LED__Treiber] möglicherweise zu Laufzeitfehlern in [dbo].[load_link_LED__Treiber].
+
