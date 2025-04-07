@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>SSDB</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{a4ee5b16-af58-42e7-a736-14b3ed22f1ed}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath />
+    <RootNamespace>Database1</RootNamespace>
+    <AssemblyName>Database1</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="sat\" />
+    <Folder Include="sat\Tables\" />
+    <Folder Include="link\" />
+    <Folder Include="link\Tables\" />
+    <Folder Include="hub\" />
+    <Folder Include="hub\Tables\" />
+    <Folder Include="Security\" />
+    <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="dim\" />
+    <Folder Include="dim\Views\" />
+    <Folder Include="fakt\" />
+    <Folder Include="fakt\Views\" />
+    <Folder Include="hub\Tables\biro40" />
+    <Folder Include="hub\Tables\spot" />
+    <Folder Include="hub\Tables\m1" />
+    <Folder Include="link\Tables\biro40" />
+    <Folder Include="link\Tables\m1" />
+    <Folder Include="link\Tables\spot" />
+    <Folder Include="sat\Tables\biro40" />
+    <Folder Include="sat\Tables\m1" />
+    <Folder Include="sat\Tables\spot" />
+    <Folder Include="dbo\Stored Procedures\m1" />
+    <Folder Include="dbo\Stored Procedures\biro40" />
+    <Folder Include="dbo\Stored Procedures\spot" />
+    <Folder Include="hub\Tables\melody" />
+    <Folder Include="sat\Tables\melody" />
+    <Folder Include="dbo\Stored Procedures\melody" />
+    <Folder Include="dbo\Stored Procedures\biro_circle" />
+    <Folder Include="hub\Tables\biro_circle" />
+    <Folder Include="sat\Tables\biro_circle" />
+    <Folder Include="hub\Tables\treiber" />
+    <Folder Include="hub\Tables\led" />
+    <Folder Include="sat\Tables\led" />
+    <Folder Include="sat\Tables\treiber" />
+    <Folder Include="dbo\Stored Procedures\treiber" />
+    <Folder Include="dbo\Stored Procedures\led" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Security\sat.sql" />
+    <Build Include="Security\link.sql" />
+    <Build Include="Security\hub.sql" />
+    <Build Include="Security\fakt.sql" />
+    <Build Include="Security\dim.sql" />
+    <Build Include="dbo\Stored Procedures\load_all.sql" />
+    <Build Include="dbo\Tables\users.sql" />
+    <Build Include="fakt\Views\Spot.sql" />
+    <Build Include="hub\Tables\biro40\Biro40_Optik.sql" />
+    <Build Include="hub\Tables\biro40\Biro40_Profil.sql" />
+    <Build Include="hub\Tables\spot\Spot_Gehaeuse.sql" />
+    <Build Include="hub\Tables\m1\M1_Gehaeuse.sql" />
+    <Build Include="link\Tables\biro40\Biro40_Figur__Montage.sql" />
+    <Build Include="link\Tables\biro40\Biro40_Leuchte__Optik.sql" />
+    <Build Include="link\Tables\biro40\Biro40_Leuchte__Profil.sql" />
+    <Build Include="link\Tables\biro40\Biro40_Montage__Leuchte.sql" />
+    <Build Include="link\Tables\m1\M1_Gehaeuse__LED.sql" />
+    <Build Include="link\Tables\m1\M1_LED__Treiber.sql" />
+    <Build Include="link\Tables\spot\Spot_Gehaeuse__LED.sql" />
+    <Build Include="link\Tables\spot\Spot_LED__Treiber.sql" />
+    <Build Include="sat\Tables\spot\Spot_Gehauese_Stammdaten.sql" />
+    <Build Include="dbo\Stored Procedures\m1\load_hub_M1_Gehaeuse.sql" />
+    <Build Include="dbo\Stored Procedures\m1\load_link_M1_Gehaeuse__LED.sql" />
+    <Build Include="dbo\Stored Procedures\m1\load_sat_M1_Gehaeuse_Stammdaten.sql" />
+    <Build Include="dbo\Stored Procedures\biro40\load_hub_Biro40_Optik.sql" />
+    <Build Include="dbo\Stored Procedures\biro40\load_hub_Biro40_Profil.sql" />
+    <Build Include="dbo\Stored Procedures\spot\load_hub_Spot_Gehaeuse.sql" />
+    <Build Include="dbo\Stored Procedures\spot\load_link_Spot_Gehaeuse__LED.sql" />
+    <Build Include="dbo\Stored Procedures\spot\load_sat_Spot_Gehaeuse_Stammdaten.sql" />
+    <Build Include="hub\Tables\melody\Melody_Stehleuchte.sql" />
+    <Build Include="sat\Tables\melody\Melody_Stehleuchte_Artikel.sql" />
+    <Build Include="sat\Tables\melody\Melody_Stehleuchte_Stammdaten.sql" />
+    <Build Include="dbo\Stored Procedures\melody\load_hub_Melody_Stehleuchte.sql" />
+    <Build Include="dbo\Stored Procedures\melody\load_sat_Melody_Stehleuchte_Stammdaten.sql" />
+    <Build Include="dbo\Stored Procedures\melody\load_sat_Melody_Stehleuchte_Artikel.sql" />
+    <Build Include="dbo\Stored Procedures\biro_circle\load_sat_Biro_Circle_Artikel.sql" />
+    <Build Include="dbo\Stored Procedures\biro_circle\load_sat_Biro_Circle_Stammdaten.sql" />
+    <Build Include="fakt\Views\Melody.sql" />
+    <Build Include="sat\Tables\m1\M1_Gehauese_Stammdaten.sql" />
+    <Build Include="fakt\Views\M1.sql" />
+    <Build Include="hub\Tables\led\LED.sql" />
+    <Build Include="hub\Tables\treiber\Treiber.sql" />
+    <Build Include="sat\Tables\led\LED_Stammdaten.sql" />
+    <Build Include="sat\Tables\treiber\Treiber_Stammdaten.sql" />
+    <Build Include="dbo\Stored Procedures\led\load_hub_LED.sql" />
+    <Build Include="dbo\Stored Procedures\led\load_sat_LED_Stammdaten.sql" />
+    <Build Include="dbo\Stored Procedures\treiber\load_hub_Treiber.sql" />
+    <Build Include="dbo\Stored Procedures\treiber\load_sat_Treiber_Stammdaten.sql" />
+    <Build Include="dbo\Stored Procedures\m1\load_link_M1_LED__Treiber.sql" />
+    <Build Include="dbo\Stored Procedures\spot\load_link_Spot_LED__Treiber.sql" />
+    <Build Include="dbo\Stored Procedures\load_link_LED__Treiber.sql" />
+    <Build Include="dbo\Stored Procedures\load_sat_Biro40_Profil_Stammdaten.sql" />
+    <Build Include="dbo\Stored Procedures\load_sat_Biro40_Optik_Stammdaten.sql" />
+    <Build Include="dbo\Stored Procedures\load_sat_Biro40_GT_Stammdaten.sql" />
+    <Build Include="dbo\Stored Procedures\load_sat_Biro40_Eulum_Stammdaten.sql" />
+    <Build Include="dbo\Stored Procedures\load_hub_Biro40_GT.sql" />
+    <Build Include="dbo\Stored Procedures\load_hub_Biro40_Eulum.sql" />
+    <Build Include="hub\Tables\biro40\Biro40_Eulum.sql" />
+    <Build Include="hub\Tables\biro40\Biro40_GT.sql" />
+    <Build Include="sat\Tables\biro40\Biro40_Eulum_Stammdaten.sql" />
+    <Build Include="sat\Tables\biro40\Biro40_GT_Stammdaten.sql" />
+    <Build Include="sat\Tables\biro40\Biro40_Optik_Stammdaten.sql" />
+    <Build Include="sat\Tables\biro40\Biro40_Profil_Stammdaten.sql" />
+    <Build Include="sat\Tables\Biro40_Zubehoer_Stammdaten.sql" />
+    <Build Include="link\Tables\Biro40_Eulum__GT.sql" />
+    <Build Include="hub\Tables\Biro40_Zubehoer.sql" />
+    <Build Include="dbo\Stored Procedures\load_sat_Biro40_Zubehoer_Stammdaten.sql" />
+    <Build Include="dbo\Stored Procedures\load_link_Biro40_Eulum__GT.sql" />
+    <Build Include="dbo\Stored Procedures\load_hub_Biro40_Zubehoer.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="SSDB.refactorlog" />
+  </ItemGroup>
+</Project>
